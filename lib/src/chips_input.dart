@@ -432,7 +432,7 @@ class ChipsInputState<T> extends State<ChipsInput<T>>
               flex: 1,
               child: Text(
                 _value.normalCharactersText,
-                maxLines: 0,
+                maxLines: 1,
                 overflow: widget.textOverflow,
                 style: widget.textStyle ??
                     theme.textTheme.subtitle1!.copyWith(height: 1.5),
