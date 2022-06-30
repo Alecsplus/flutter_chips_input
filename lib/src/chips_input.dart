@@ -429,7 +429,7 @@ class ChipsInputState<T> extends State<ChipsInput<T>>
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             Flexible(
-              flex: 1,
+              flex: 0,
               child: Text(
                 _value.normalCharactersText,
                 maxLines: 1,
